@@ -1,12 +1,13 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  databaseURL: process.env.databaseURL,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId,
+  apiKey: "AIzaSyBY55KT2yCzm9MIvcMnkEp80jCNFbrmXrs",
+  authDomain: "chat-88a62.firebaseapp.com",
+  databaseURL: "https://chat-88a62-default-rtdb.firebaseio.com",
+  projectId: "chat-88a62",
+  storageBucket: "chat-88a62.firebasestorage.app",
+  messagingSenderId: "924761701949",
+  appId: "1:924761701949:web:902671e5b3f285072a3454",
+ 
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
